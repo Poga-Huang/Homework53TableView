@@ -13,6 +13,8 @@
 		D6D47AAC278E68B100AF3154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D47AAA278E68B100AF3154 /* Main.storyboard */; };
 		D6D47AAE278E68B800AF3154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D47AAD278E68B800AF3154 /* Assets.xcassets */; };
 		D6D47AB1278E68B800AF3154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D47AAF278E68B800AF3154 /* LaunchScreen.storyboard */; };
+		D6D47AB9278E75EC00AF3154 /* MovieInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47AB8278E75EB00AF3154 /* MovieInfoTableViewCell.swift */; };
+		D6D47ABB278E787E00AF3154 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47ABA278E787D00AF3154 /* MovieData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D6D47AAD278E68B800AF3154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D47AB0278E68B800AF3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D47AB2278E68B800AF3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D47AB8278E75EB00AF3154 /* MovieInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D6D47ABA278E787D00AF3154 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				D6D47AA4278E68B100AF3154 /* AppDelegate.swift */,
 				D6D47AA6278E68B100AF3154 /* SceneDelegate.swift */,
 				D6D47AA8278E68B100AF3154 /* ViewController.swift */,
+				D6D47ABA278E787D00AF3154 /* MovieData.swift */,
 				D6D47AAA278E68B100AF3154 /* Main.storyboard */,
+				D6D47AB8278E75EB00AF3154 /* MovieInfoTableViewCell.swift */,
 				D6D47AAD278E68B800AF3154 /* Assets.xcassets */,
 				D6D47AAF278E68B800AF3154 /* LaunchScreen.storyboard */,
 				D6D47AB2278E68B800AF3154 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				D6D47AA9278E68B100AF3154 /* ViewController.swift in Sources */,
 				D6D47AA5278E68B100AF3154 /* AppDelegate.swift in Sources */,
+				D6D47AB9278E75EC00AF3154 /* MovieInfoTableViewCell.swift in Sources */,
+				D6D47ABB278E787E00AF3154 /* MovieData.swift in Sources */,
 				D6D47AA7278E68B100AF3154 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
